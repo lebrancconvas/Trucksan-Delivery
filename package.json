@@ -1,0 +1,22 @@
+{
+  "name": "trucksan-delivery",
+  "version": "1.0.0",
+  "description": "This is the application for anyone who wanna go to another world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "-test trucksan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebrancconvas/Trucksan-Delivery.git"
+  },
+  "keywords": [
+    "Trucksan"
+  ],
+  "author": "lebrancconvas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebrancconvas/Trucksan-Delivery/issues"
+  },
+  "homepage": "https://github.com/lebrancconvas/Trucksan-Delivery#readme"
+}
