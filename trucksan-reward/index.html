@@ -17,10 +17,13 @@
             <h1>{{ popup }}</h1>
         </div>
         <div class="has-text-centered">
-            <form action="reward.html">
-                <div id="name"><input class="input is-primary is-rounded has-text-centered" type="text" placeholder="กรุณาระบุชื่อของคุณ"></div>
+            <form>
+                <input v-model="nameRewarder" class="input is-primary is-rounded has-text-centered" type="text" placeholder="กรุณาระบุชื่อของคุณ">
                 <br><br>
-                <a href="reward.html"><input type="submit" class="button is-success"></input></a>
+                <a href="#">
+                    <input v-if="nameRewarder === '' " type="submit" class="button is-success" disabled>
+                    <input v-else-if="nameRewarder !== '' " @click="" type="submit" class="button is-success">
+                </a>
             </form>
 
         </div>
